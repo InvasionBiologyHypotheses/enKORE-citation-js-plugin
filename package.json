@@ -1,13 +1,19 @@
 {
 	"name": "@hi-knowledge.org/citation-js-plugin",
-	"version": "0.6.4",
-	"description": "Plugin for Wikidata for Citation.js",
+	"version": "0.1.0",
+	"description": "Plugin for Citation.js for the Hi Knowledge initiative",
 	"keywords": [
 		"citation-js",
 		"wikidata",
 		"wikicite"
 	],
 	"author": "Lars Willighagen <lars.willighagen@gmail.com>",
+	"contributors": [
+		{
+			"name": "Steph Tyszka",
+			"email": "steph.tyszka@igb-berlin.de"
+		}
+	],
 	"license": "MIT",
 	"main": "lib/index.js",
 	"module": "lib-mjs/index.js",
@@ -15,10 +21,10 @@
 		"lib": "src",
 		"test": "__tests__"
 	},
-	"homepage": "https://citation.js.org/",
-	"repository": "https://github.com/citation-js/citation-js/tree/master/packages/plugin-wikidata",
+	"homepage": "https://hi-knowledge.org/",
+	"repository": "https://github.com/InvasionBiologyHypotheses/enKORE-citation-js-plugin",
 	"bugs": {
-		"url": "https://github.com/citation-js/citation-js/issues"
+		"url": "https://github.com/InvasionBiologyHypotheses/enKORE-citation-js-plugin/issues"
 	},
 	"engines": {
 		"node": ">=14.0.0"
@@ -39,6 +45,6 @@
 		"@citation-js/core": "^0.7.18"
 	},
 	"peerDependencies": {
-		"@citation-js/core": "^0.6.0"
+		"@citation-js/core": "^0.7.0"
 	}
 }
